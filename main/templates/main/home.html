@@ -1,0 +1,184 @@
+{% load static %}
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Auto Dealership | الرئيسية</title>
+    <link rel="icon" href="{% static '/images/logo.jpg' %}" type="image/x-icon">
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="{% static '/css/main.css' %}" />
+    <link rel="stylesheet" href="{% static '/css/fontawesome-all.min.css' %}">
+    <noscript><link rel="stylesheet" href="{% static '/css/noscript.css' %}" /></noscript>
+</head>
+
+<body class="is-preload landing">
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <h1 id="logo" style="font-family: DejaVu Sans Mono, monospace;font-size: xx-large;">Auto Dealership sd</h1>
+            <nav id="nav">
+
+                <ul>
+
+
+                    <li><a href="elements.html">ميتسوبيتشي</a>
+                        <ul>
+                            <li><a href="left-sidebar.html">جديد</a></li>
+                            <li><a href="right-sidebar.html">مستعمل</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="elements.html">نيسان</a>
+                        <ul>
+                            <li><a href="left-sidebar.html">جديد</a></li>
+                            <li><a href="right-sidebar.html">مستعمل</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="elements.html">تويوتا</a>
+                        <ul>
+                            <li><a href="left-sidebar.html">جديد</a></li>
+                            <li><a href="right-sidebar.html">مستعمل</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="elements.html">هيونداي</a>
+                        <ul>
+                            <li><a href="left-sidebar.html">جديد</a></li>
+                            <li><a href="right-sidebar.html">مستعمل</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <form>
+                            <input class="form-control mr-sm-2" type="search" name="search" placeholder="search" aria-label="Search">
+                    </li>
+                    <li>
+                        <button class="btn btn-outline-success my-2 my-sm-0" value="{{ query|escape }}" type="submit">بحث</button>
+                        </form>
+                    </li>
+                    <li><a href="{% url 'register' %}" class="button primary">!سجل الآن و اعرض سيارتك مجاناً</a></li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Banner -->
+        <section id="banner">
+            <div class="content">
+                <header>
+                    <h2> مرحباً بك في المعرض السوداني للسيارات</h2>
+                    <p> أكبر موقع سوداني لبيع و شراء السيارات الجديدة و المستعملة</p>
+                </header>
+            </div>
+
+            <a href="#one" class="goto-next scrolly">Next</a>
+        </section>
+
+
+        <!-- One -->
+        <section id="one" class="spotlight style1 bottom">
+            <span class="image fit main"><img src="{% static '/images/hilux.jpg' %}" alt="" /></span>
+            <div class="content">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-4 col-12-medium">
+                            <p> محرك تيربو ديزل 2.8 لتر بقوة 201 حصان عزم 500 نيوتن متر بالناقل الأوتوماتيكي 4200 نيوتن متر بالناقل اليدوي كما يتوافر محركان آخران تيربو ديزل 2.4 لتر 4 سلندر قوته الحاليه 147 حصان وعزم 400 نيوتن متر</p>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <p>تغير في الشكل الخارجي للسيارة بداية من الواجهة الأمامية تتكون من رف فوربشبك جديد كبير بحواف سوداء أو فضية و تضيف لها المصابيح الأمامية منظر رائع و أيضا المصابيح النهاريه led ,مع الحفاظ م شكلها المألوف. أما المصابيح الخلفيه
+                                حدث لها تعديل يضيف لها مظهر عصري</p>
+                        </div>
+                        <div class="col-4 col-12-medium">
+                            <header>
+                                <h3 style="font-size: xx-large;">تويوتا هايلوكس 2021 الجديد كلياً</h3>
+                                <p>!احصل على العرض الأفضل </p>
+                            </header>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#two" class="goto-next scrolly">Next</a>
+        </section>
+
+        <!-- Two -->
+        <section id="two" class="spotlight style2 right">
+            <span class="image fit main">
+                <img src="{% static '/images/pajero.jpg' %}" alt=""></span>
+            <div class="content">
+                <header>
+                    <h2>Interdum amet non magna accumsan</h2>
+                    <p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>
+                </header>
+                <p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
+                <ul class="actions">
+                    <li><a href="#" class="button">Learn More</a></li>
+                </ul>
+            </div>
+            <a href="#three" class="goto-next scrolly">Next</a>
+        </section>
+
+        <!-- Three -->
+        {% for car in cars %}
+        <section id="three" class="spotlight style3 left">
+
+            <div class="content">
+                <span class="image fit main bottom"><img src="{{ car.car_image.url}}" alt="" /></span>
+
+                <header>
+                    <h2>{{ car.author }}</h2>
+                    <p>{{ car.car_name }}</p>
+                    <p>{{ car.created_on }}</p>
+                </header>
+                <p>
+                    {{ car.content}}</p>
+                <ul class="actions">
+                    <li><a href="{% url 'detail' car.pk %}" class="button">Learn More</a></li>
+                </ul>
+            </div>
+            <a href="#footer" class="goto-next scrolly">Next</a>
+        </section>
+        {% endfor %}
+        <!-- Four -->
+
+
+        <!-- Five -->
+
+
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="icons">
+                <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="https://www.facebook.com/XenonTechno" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+                <li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>All Rights Reserved to <strong>XENON</strong><sub>&copy;</sub> Technologies 2020.</li>
+            </ul>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="{% static 'js/jquery.min.js'%}"></script>
+    <script src="{% static 'js/jquery.scrolly.min.js'%}"></script>
+    <script src="{% static 'js/jquery.dropotron.min.js'%}"></script>
+    <script src="{% static 'js/jquery.scrollex.min.js'%}"></script>
+    <script src="{% static 'js/browser.min.js'%}"></script>
+    <script src="{% static 'js/breakpoints.min.js'%}"></script>
+    <script src="{% static 'js/util.js'%}"></script>
+    <script src="{% static 'js/main.js'%}"></script>
+
+</body>
+
+</html>
